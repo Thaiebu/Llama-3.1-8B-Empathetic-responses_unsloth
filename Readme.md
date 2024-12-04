@@ -15,7 +15,10 @@ I fine-tuned the **Meta-Llama-3.1-8B** model using the **Unsloth** framework, ap
 - **Cultural Cues** were added to dynamically adjust empathetic responses based on keywords like "family," "work," and "health."
   
 ## Notebook Update: Model Output
-You can See Finetuned model in this  notebook "Llaama Fine tune with empathetic data.ipynb"
+You can See Finetuned model in this  notebook `colab_notebook/Llaama Fine tune with empathetic data.ipynb`
+
+## Document updated 
+You can see full documentation in `docs\Documentation_ Sentiment-Aware Empathetic Chatbot.pdf` folder
 
 # Running a Streamlit App
 I implimented model in Streamlit with help of huggingface
@@ -40,6 +43,6 @@ Once the Streamlit app is running, you can input your situation or emotion into 
 
 Here is an output result for chatbot :
 
-![Chatbot UI](Empathetic-Chatbot_sample_1.png)
-![Chatbot UI](Empathetic-Chatbot_sample_2.png)
-![Chatbot UI](Empathetic-Chatbot_sample_3.png)
+![Chatbot UI](images/Empathetic-Chatbot_sample_1.png)
+![Chatbot UI](images/Empathetic-Chatbot_sample_2.png)
+![Chatbot UI](images/Empathetic-Chatbot_sample_3.png)
